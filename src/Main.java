@@ -32,6 +32,13 @@ public class Main {
 //В качестве строки с исходными данными используйте строку fullName.
 //Результат программы выведите в консоль в формате: "Данные ФИО сотрудника для заполнения отчета — …"
 
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + firstName + " " + middleName;
+
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
     }
 
 }
