@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Задача 1");
 //    Представьте, что вы работаете в небольшой компании.
 //    Данные сотрудников хранятся в неструктурированном формате.
-//    Бухгалтерия попросила написать программу, в которой  можно работать с Ф. И. О. сотрудников.
+//    Бухгалтерия попросила написать программу, в которой можно работать с Ф. И. О. сотрудников.
 //Напишите четыре строки:
 //С именем firstName — для хранения имени.
 //С именем middleName — для хранения отчества.
@@ -50,8 +50,8 @@ public class Main {
 //Выведите результат программы в консоль в формате: «Данные ФИО сотрудника — ...».
 
         String fullName = "Иванов Семён Семёнович";
-        String withoutCyrillicfullName = fullName.replace("ё", "е");
-        System.out.println("Данные ФИО сотрудника - " + withoutCyrillicfullName);
+        String withoutCyrillicFullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника - " + withoutCyrillicFullName);
     }
 
 }
