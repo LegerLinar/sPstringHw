@@ -38,8 +38,8 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
 
-        fullName = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
+        String fullNameToUpperCase = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullNameToUpperCase);
     }
 
     public static void task3() {
@@ -50,8 +50,8 @@ public class Main {
 //Выведите результат программы в консоль в формате: «Данные ФИО сотрудника — ...».
 
         String fullName = "Иванов Семён Семёнович";
-        fullName = fullName.replace("ё", "е");
-        System.out.println("Данные ФИО сотрудника - " + fullName);
+        String withoutCyrillicfullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника - " + withoutCyrillicfullName);
     }
 
 }
